@@ -10,6 +10,8 @@ public class Americano extends UnicastRemoteObject implements Mensageiro{
     
     @Override
     public String mensagem() throws RemoteException {
+        System.out.println("AMERICANO");
+
         return "Hello World";
     }
 }
